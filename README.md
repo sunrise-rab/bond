@@ -50,9 +50,9 @@ Therapist.
 # Wireframe:
 I created wireframes using Balsamiq Wireframes. This helped me visualise the structure and flow of each page before starting the coding process. I focused on making the design clear, simple, and responsive — ensuring it would look good on all screens.
 
-## [Iphone wireframe](docs/phone-wireframe.pdf)
-## [Ipad wireframe](docs/Ipad-wireframe.pdf)
-## [Desktop wireframe](docs/Desktop-wireframe.pdf)
+### [Iphone wireframe](docs/phone-wireframe.pdf)
+### [Ipad wireframe](docs/Ipad-wireframe.pdf)
+### [Desktop wireframe](docs/Desktop-wireframe.pdf)
 
 
 
