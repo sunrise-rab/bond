@@ -54,5 +54,15 @@ I created wireframes using Balsamiq Wireframes. This helped me visualise the str
 ### [Ipad wireframe](docs/Ipad-wireframe.pdf)
 ### [Desktop wireframe](docs/Desktop-wireframe.pdf)
 
+# Design Choices
+## Typography
+To keep the design friendly, playful, and easy to read for children, I selected two Google Fonts:
+Fredoka – used for headings and titles. This rounded, bold font adds a fun and child-like feel to the site, making it more inviting for younger users.
+Poppins – used for body text. It is clean, modern, and highly readable, which helps maintain clarity across different devices and screen sizes.
+Both fonts complement each other visually and support the calm, creative tone of the website.
+
+## Colour Scheme
+The colour palette for Bond was carefully chosen to reflect creativity, warmth, and emotional wellbeing. The soft pastel tones are friendly and appealing to children, while maintaining good readability and contrast.
+
 
 
