@@ -9,7 +9,7 @@
     --nav-lg:#34485A;  /* navy colour*/
     --nav-text-color: #FFEAA7;
     --nav-text-hover:#FEF5E7;
-    --subtitile-color:#6D92A5;
+    --secondary-color:#6D92A5;
 
 }
 body{
@@ -22,7 +22,7 @@ h1{
 }
  h2, h3 {
     font-family: var(--secondary-font);
-    color: var(--subtitile-color);
+    color: var(--secondary-color);
   }
 
   .section {
@@ -49,11 +49,10 @@ h1{
     color:var(--nav-text-hover) !important;
     font-weight: bold;
 }
-/* create a style for the Start bonding now button */
+/* Introduction's button styles*/
 .btn-secondary {
     background-color: var(--nav-lg);
     color: var(--nav-text-color);
-    
 }
 
 .btn-secondary:hover {
@@ -61,16 +60,88 @@ h1{
     color: var(--nav-lg);
 }
 
+/* Journal's button styles*/
+.btn-primary{
+    background-color: #E89BAD;
+    color:#3A3A3A;
+    border: none;
+    font-family: var(--secondary-font);
+}
+.btn-primary:hover{
+    transform: rotate(3deg);
+    background-color:#6D92A5;
+}
+
+
+
+
 /* carousel styles */
-  .carousel-item img {
-    max-width:100%;
+#carousel{
     height: auto;
+}
+.carousel-item img {
+   /* max-width:100%;
+    height: auto;*/
+    height: 100%;       /* make images fill that height */
+    width: 100%;        /* keep width full */
+    object-fit: cover;
     
+  }
+/* Styling journal cards*/
+  #journal .card{
+      border-color:var(--secondary-color);
+  }
+
+ #journal .card-title{
+      color: var(--secondary-color);
   }
  
 
-  
 
+  /*Media queries*/
+/* Small devices (Phones, 412px and up)*/
+  @media screen and (min-width: 412px){
+    /*make carousel height fixed on a screen of a minimum width of 412px*/
+    #carousel{
+        height: 214px;
+    }
+}
+  /* Medium devices (tablets, 768px and up)*/
+  @media screen and (min-width: 768px){
+    /*make all journal cards the same height for consistency*/
+    #journal .card-text{
+        min-height: 143px;
+    }
+    /*make carousel height fixed on a screen of a minimum width of 768px*/
+    #carousel{
+        height: 427px;
+    }
+}
+/* Medium devices (tablets, 1024px and up)*/
+@media screen and (min-width: 1024px){
+    /*make all journal cards the same height for consistency*/
+    #journal .card-text{
+        min-height: 120px;
+    }
+    /*make carousel height fixed on a screen of a minimum width of 1024px*/
+    #carousel {
+        height: 596px;
+    }
+}
+  
+  /* Medium devices (tablets, 1200px and up)*/
+  @media screen and (min-width: 1200px){
+    /*make all journal cards the same height for consistency*/
+    #journal .card-text{
+        min-height: 192px;
+    }
+    /*make carousel height fixed on a screen of a minimum width of 1200px*/
+    #carousel{
+        height: 425px;
+    }
+  }
+  
+ 
 
 
 
