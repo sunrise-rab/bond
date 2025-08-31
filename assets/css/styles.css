@@ -96,15 +96,38 @@ h1{
       color: var(--secondary-color);
   }
  
+/* benefit section styles*/
+#benefits .bg-body-tertiary{
+    background-color: rgba(254, 245, 231, 0.4) !important;
+    color: #34485A;
+}
+/* create a two column grid*/
+.benefits-grid{
+    grid-template-columns: 1fr 1fr;
+}
+
+#benefits h3 i{
+    color: #E89BAD;
+    padding-right: 0.5rem;
+}
+
 
 
   /*Media queries*/
-/* Small devices (Phones, 412px and up)*/
+
   @media screen and (min-width: 412px){
     /*make carousel height fixed on a screen of a minimum width of 412px*/
     #carousel{
         height: 214px;
     }
+}
+
+/* X-small devices (portrait phones, less than 576px)*/
+  @media screen and (max-width: 575.98px){
+    /* create a one column grid that will be responsive on a 576 screen or less*/
+     .benefits-grid{
+        grid-template-columns: 1fr;
+     }
 }
   /* Medium devices (tablets, 768px and up)*/
   @media screen and (min-width: 768px){
