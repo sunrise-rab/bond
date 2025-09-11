@@ -80,8 +80,7 @@ h1{
     height: auto;
 }
 .carousel-item img {
-   /* max-width:100%;
-    height: auto;*/
+   
     height: 100%;       /* make images fill that height */
     width: 100%;        /* keep width full */
     object-fit: cover;
@@ -96,7 +95,7 @@ h1{
       color: var(--secondary-color);
   }
  
-/* benefit section styles*/
+/* Benefit section styles*/
 #benefits .bg-body-tertiary{
     background-color: rgba(254, 245, 231, 0.4) !important;
     color: #34485A;
@@ -110,6 +109,24 @@ h1{
     color: #E89BAD;
     padding-right: 0.5rem;
 }
+
+/* Printables section styles */
+
+#printables .card{
+    border: 0px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* This tells the browser to smoothly animate two properties transition and box-shadow */
+}
+/* Using hover to make the cards stand out individually*/
+#printables .card:hover{
+    transform: translateY(-5px); /* This moves the card 5px upwards making it look like if it is lifting*/
+    box-shadow: 0px 8px 16px  rgba(0, 0, 0, 0.15);
+}
+/* Make the printable cards have same height*/
+#printables img{
+    height: 400px;
+    width: auto;
+}
+
 
 
 
@@ -154,13 +171,19 @@ h1{
   
   /* Medium devices (tablets, 1200px and up)*/
   @media screen and (min-width: 1200px){
-    /*make all journal cards the same height for consistency*/
+    /*Make all journal cards the same height for consistency*/
     #journal .card-text{
         min-height: 192px;
     }
-    /*make carousel height fixed on a screen of a minimum width of 1200px*/
+    /*Make carousel height fixed on a screen of a minimum width of 1200px*/
     #carousel{
         height: 425px;
+    }
+    /* Make the printable cards have same height in a screen of a minimum width of 1200px*/
+    #printables img {
+        height: 430px;
+        width: 100%;
+    
     }
   }
   
