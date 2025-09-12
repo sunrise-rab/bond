@@ -61,15 +61,19 @@ h1{
 }
 
 /* Journal's button styles*/
-.btn-primary{
+#journal .btn-primary{
     background-color: #E89BAD;
     color:#3A3A3A;
     border: none;
     font-family: var(--secondary-font);
 }
-.btn-primary:hover{
-    transform: rotate(3deg);
-    background-color:#6D92A5;
+#journal .btn-primary:hover{
+    transform: rotate(3deg); /* this will rotate the button once the user is hovering over the button */
+    background-color:var(--secondary-color);
+}
+
+#journal .btn-primary:active{
+    background-color:var(--secondary-color);
 }
 
 
@@ -128,6 +132,52 @@ h1{
 }
 
 
+/*footer styles*/
+
+#footer{
+    background-color: var(--nav-lg);
+}
+
+.subscribe{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#footer .btn-primary{
+    background-color: var(--secondary-color);
+    border: 0px;
+}
+#footer .btn-primary:hover{
+    background-color: var(--nav-text-hover);
+    color: var(--secondary-color);
+
+}
+#footer .btn-primary:active{
+    background-color: var(--nav-text-hover);
+    color: var(--secondary-color);
+}
+#footer input{
+    background-color: var(--nav-text-hover);
+    color: var(--secondary-color);
+}
+#footer i{
+    color: var(--secondary-color);
+}
+
+#social-media p{
+    color: var(--nav-text-color);
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+#social-media i{
+    color: var(--nav-text-color);
+    padding: 0rem 0rem 1rem 1rem;
+    margin: 0.5rem 0rem 1rem 0rem;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+
 
 
   /*Media queries*/
@@ -144,6 +194,13 @@ h1{
     /* create a one column grid that will be responsive on a 576 screen or less*/
      .benefits-grid{
         grid-template-columns: 1fr;
+     }
+
+     #social-media {
+          margin-top: 0px !important;
+     }
+     .subscribe{
+         margin-bottom: 0px !important;
      }
 }
   /* Medium devices (tablets, 768px and up)*/
