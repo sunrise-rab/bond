@@ -64,5 +64,11 @@ Both fonts complement each other visually and support the calm, creative tone of
 ## Colour Scheme
 The colour palette for Bond was carefully chosen to reflect creativity, warmth, and emotional wellbeing. The soft pastel tones are friendly and appealing to children, while maintaining good readability and contrast.
 
+![The colour palette](docs/bond-palette.png)
+
+To ensure the website is accessible and the textis readable for users, I used Contrast Grid to testhe contrast between background and the text colors.
+
+![The colour palette](docs/contrast grid.png)
+
 
 
