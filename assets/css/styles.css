@@ -176,6 +176,27 @@ h1{
     font-weight: bold;
     font-size: xx-large;
 }
+/* Styling the contact us form*/
+
+#contact-form .btn-primary{
+    background-color: var(--nav-lg);
+    color: var(--nav-text-color);
+}
+
+#contact-form .btn-primary:hover {
+    background-color: var(--nav-text-hover);
+    color: var(--nav-lg);
+}
+
+
+
+#contact-form label{
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+#contact-form input, #contact-form textarea{
+    background-color: var(--nav-text-hover);
+}
 
 
 
