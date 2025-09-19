@@ -6,10 +6,11 @@
     --secondary-font:"Fredoka", sans-serif;
     /* Colour scheme*/
     --primary-color:#3A3A3A; /* dark grey for text*/
-    --nav-lg:#34485A;  /* navy colour*/
+    --navy-color:#34485A;  /* navy colour*/
     --nav-text-color: #FFEAA7;
     --nav-text-hover:#FEF5E7;
     --secondary-color:#6D92A5;
+    --title-color: #A6DCEF;
 
 }
 html{
@@ -20,22 +21,31 @@ body{
     font-family: var(--primary-font);
     color: var(--primary-color);
 }
-h1{
+h1, h2, h3{
     font-family: var(--secondary-font);
-    color: #34485A;
 }
- h2, h3 {
-    font-family: var(--secondary-font);
+h1{
+    
     color: var(--secondary-color);
+}
+ h2{
+    
+    color: var(--navy-color);
+    
   }
 
-  .section {
+h3{
+    color: var(--secondary-color);
+}
+
+
+.section {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
 #navbar{
-    background-color:var(--nav-lg);
+    background-color:var(--navy-color);
 }
 
 .logo{
@@ -56,13 +66,13 @@ h1{
 }
 /* Introduction's button styles*/
 .btn-secondary {
-    background-color: var(--nav-lg);
+    background-color: var(--navy-color);
     color: var(--nav-text-color);
 }
 
 .btn-secondary:hover {
     background-color: var(--nav-text-color);
-    color: var(--nav-lg);
+    color: var(--navy-color);
 }
 
 /* Journal's button styles*/
@@ -140,7 +150,7 @@ h1{
 /*footer styles*/
 
 #footer{
-    background-color: var(--nav-lg);
+    background-color: var(--navy-color);
 }
 
 .subscribe{
@@ -184,13 +194,13 @@ h1{
 /* Styling the contact us form*/
 
 #contact-us .btn-primary{
-    background-color: var(--nav-lg);
+    background-color: var(--navy-color);
     color: var(--nav-text-color);
 }
 
 #contact-us .btn-primary:hover {
     background-color: var(--nav-text-hover);
-    color: var(--nav-lg);
+    color: var(--navy-color);
 }
 
 
