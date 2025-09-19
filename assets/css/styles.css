@@ -12,6 +12,10 @@
     --secondary-color:#6D92A5;
 
 }
+html{
+    scroll-padding: 100px;
+    scroll-behavior: smooth;
+}
 body{
     font-family: var(--primary-font);
     color: var(--primary-color);
@@ -48,6 +52,7 @@ h1{
   .nav-link.active {
     color:var(--nav-text-hover) !important;
     font-weight: bold;
+
 }
 /* Introduction's button styles*/
 .btn-secondary {
@@ -178,23 +183,23 @@ h1{
 }
 /* Styling the contact us form*/
 
-#contact-form .btn-primary{
+#contact-us .btn-primary{
     background-color: var(--nav-lg);
     color: var(--nav-text-color);
 }
 
-#contact-form .btn-primary:hover {
+#contact-us .btn-primary:hover {
     background-color: var(--nav-text-hover);
     color: var(--nav-lg);
 }
 
 
 
-#contact-form label{
+#contact-us label{
     font-weight: bold;
     color: var(--secondary-color);
 }
-#contact-form input, #contact-form textarea{
+#contact-us input, #contact-us textarea{
     background-color: var(--nav-text-hover);
 }
 
@@ -202,7 +207,7 @@ h1{
 
 
   /*Media queries*/
-
+/* X-small devices (portrait phones, width of 412px or  less)*/
   @media screen and (min-width: 412px){
     /*make carousel height fixed on a screen of a minimum width of 412px*/
     #carousel{
@@ -210,13 +215,13 @@ h1{
     }
 }
 
-/* X-small devices (portrait phones, less than 576px)*/
+/* small devices (portrait phones, width of 575.98px or  less)*/
   @media screen and (max-width: 575.98px){
     /* create a one column grid that will be responsive on a 576 screen or less*/
      .benefits-grid{
         grid-template-columns: 1fr;
      }
-
+     /* Clear margin in small devices*/
      #social-media {
           margin-top: 0px !important;
      }
@@ -235,8 +240,15 @@ h1{
         height: 427px;
     }
 }
-/* Medium devices (tablets, 1024px and up)*/
-@media screen and (min-width: 1024px){
+
+/* Create a scrole padding for screens with max width of 820px */
+  @media screen and (max-width: 820px){
+   html{
+        scroll-padding: 390px;
+     }
+}
+/* Large devices (tablets, 1024px and up)*/
+  @media screen and (min-width: 1024px){
     /*make all journal cards the same height for consistency*/
     #journal .card-text{
         min-height: 120px;
@@ -247,7 +259,7 @@ h1{
     }
 }
   
-  /* Medium devices (tablets, 1200px and up)*/
+  /* Extra large devices (tablets, 1200px and up)*/
   @media screen and (min-width: 1200px){
     /*Make all journal cards the same height for consistency*/
     #journal .card-text{
