@@ -1,7 +1,8 @@
 # bond
 Bond is a child-friendly journaling website that encourages kids aged 5 and up to express themselves through creativity, reflection, and fun printable activities. Inspired by the idea that children grow through love, imagination, and emotional connection, Bond offers a space where writing becomes magical.
 Children can explore a variety of printable journals, coloring sheets, reward charts, and mood trackers — all designed to build confidence, independence, and mindfulness. Whether a child wants to start a gratitude journal, track habits, or express emotions through colors, Bond gives them the tools to do so in a playful, safe, and accessible way.
-The project uses HTML, CSS, and a little JavaScript, focusing on responsive design to ensure accessibility across desktop, tablet, and mobile screens.
+The project uses HTML, CSS, and a little JavaScript, focusing on responsive design to ensure accessibility across desktop, tablet, and mobile screens.<br><br>
+![bond](docs/responsive-bond.png)
 
 # Website Goals and Objectives
 Create a welcoming and visually appealing space for children to explore journaling
@@ -68,7 +69,24 @@ The colour palette for Bond was carefully chosen to reflect creativity, warmth, 
 
 To ensure the website is accessible and the textis readable for users, I used Contrast Grid to testhe contrast between background and the text colors.
 
-![The colour palette](docs/contrast grid.png)
+![The colour palette](docs/contrast-grid.png)
+
+## Responsive Design Media Queries
+The website was built with a responsive design approach to ensure it works well on a wide range of devices, including mobiles, tablets, and desktops. The goal of this design is to provide a consistent and user-friendly experience for all users, no matter what device they are using.
+
+
+| Screen Size / Device        | Media Query                        | Adjustments Made                                                                 |
+|------------------------------|------------------------------------|---------------------------------------------------------------------------------|
+| **≤ 412px (extra small)**   | `@media screen and (max-width: 412px)` | Carousel height fixed at **214px**.                                             |
+| **≤ 575.98px (small devices)** | `@media screen and (max-width: 575.98px)` | - Benefits grid becomes **1 column** <br> - Social media margin-top removed <br> - Subscribe margin-bottom removed |
+| **≥ 768px (medium devices / tablets)** | `@media screen and (min-width: 768px)` | Journal card text min-height set to **143px** <br> Carousel height fixed at **427px** |
+| **≥ 1024px (large devices / tablets)** | `@media screen and (min-width: 1024px)` | Journal card text min-height set to **120px** <br> Carousel height fixed at **596px** |
+| **≥ 1200px (extra large devices)** | `@media screen and (min-width: 1200px)` | Journal card text min-height set to **192px** <br> Carousel height fixed at **425px** <br> Printable cards images set to **430px height** |
+
+## Images 
+Images for journals, printables, and the carousel were sourced from [Freepik](https://www.freepik.com/) and [Pinterest](https://uk.pinterest.com/).<br>
+The logo was created with the assistance of [ChatGPT](https://chatgpt.com/).
+
 
 
 
