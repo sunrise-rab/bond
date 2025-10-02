@@ -1,6 +1,6 @@
-# bond
+# Bond
 Bond is a child-friendly journaling website that encourages kids aged 5 and up to express themselves through creativity, reflection, and fun printable activities. Inspired by the idea that children grow through love, imagination, and emotional connection, Bond offers a space where writing becomes magical.
-Children can explore a variety of printable journals, coloring sheets, reward charts, and mood trackers — all designed to build confidence, independence, and mindfulness. Whether a child wants to start a gratitude journal, track habits, or express emotions through colors, Bond gives them the tools to do so in a playful, safe, and accessible way.
+Children can explore a variety of printable journals, colouring sheets, reward charts, and mood trackers — all designed to build confidence, independence, and mindfulness. Whether a child wants to start a gratitude journal, track habits, or express emotions through colours, Bond gives them the tools to do so in a playful, safe, and accessible way.
 The project uses HTML, CSS, and a little JavaScript, focusing on responsive design to ensure accessibility across desktop, tablet, and mobile screens.<br><br>
 ![bond](docs/responsive-bond.png)
 
@@ -86,6 +86,89 @@ The website was built with a responsive design approach to ensure it works well 
 ## Images 
 Images for journals, printables, and the carousel were sourced from [Freepik](https://www.freepik.com/) and [Pinterest](https://uk.pinterest.com/).<br>
 The logo was created with the assistance of [ChatGPT](https://chatgpt.com/).
+
+## Features
+
+### Navigation Bar
+
+A responsive navbar that adapts to mobile and desktop screens.
+
+Contains four main sections: Home, Printables, Journals and Contact Us 
+
+ ### Home Section
+
+Hero Carousel: A rotating image display featuring children journaling and some examples of our charts and activities.
+
+Introduction Text: Explains the purpose of Bond – a fun and creative space for kids to write, to bond, and explore their feelings.
+
+
+### Journals Section
+
+Travel Journal: A printable journal to record adventures, trips, and discoveries. Includes space for writing, drawing, and rating experiences.
+
+Gratitude Journal: Encourages children to reflect on what they are thankful for, with prompts like “Today I am grateful for” and “My intention for the day”.
+
+Daily Journal: A structured space for children to track their daily activities, moods, and goals, helping them build routines.
+
+Summer Journal: A seasonal journal to record holiday memories, new skills learned, and fun activities during the summer break.
+
+### Benefits of Journaling Section
+
+Boosts Emotional Intelligence: Helps children identify and express feelings.
+
+Encourages Creativity & Self-Expression: Provides a safe space for storytelling, doodling, and reflection.
+
+Improves Focus & Goal-Setting: Tools like reward charts support independence and responsibility.
+
+Strengthens Parent-Child Bond: Promotes conversations and shared activities between parents and children.
+
+### Printables Section
+
+Organised into three categories with downloadable/printable resources:
+
+#### Mindfulness Strategies & Inspirational Words
+
+Positive affirmations posters (“I am kind, I am brave, I am enough”).
+
+A–Z coping skills sheet for mindfulness.
+
+Sticky “Notes to Self” with encouraging messages.
+
+“Take a Mindful B.R.E.A.K” guide for calming down.
+
+#### Planning & Chore Charts
+
+Daily responsibilities chart (track simple tasks like tidying up or brushing teeth).
+
+Homework tracker for assignments and due dates.
+
+“My Daily Helper” visual schedule with icons for younger kids.
+
+“All About Me” worksheet for children to share hobbies, favourites, and dreams.
+
+#### Reward Charts & Stickers
+
+Behaviour chart to encourage positive habits.
+
+chart with milestones.
+
+Motivation stickers with phrases like “You are brave” and “Well done”.
+
+Star sticker sheet for achievements.
+
+### Contact Us Section
+
+A simple contact form with fields for: Name, Email, Message. On successful submission, users are redirected to a Success page.
+
+### Footer Section
+
+Subscribe Box: Allows users to enter their email to stay updated.
+
+Social Media Links: Icons for platforms like Facebook, Instagram, Twitter and Pinterest.
+
+Short Message: A friendly reminder about Bond’s mission – creativity, bonding, and growth.
+
+
 
 
 
