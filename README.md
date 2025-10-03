@@ -168,6 +168,24 @@ Social Media Links: Icons for platforms like Facebook, Instagram, Twitter and Pi
 
 Short Message: A friendly reminder about Bond’s mission – creativity, bonding, and growth.
 
+## Future enhancement 
+- Add a secure login system for parents and children.
+- Add a download and print button, which allows the user to print or download any chart or journal directly from the website.
+- Introduce rewards or badges when children complete journaling tasks.
+- Let users pick themes, colours, or stickers before downloading charts and journals.
+- Users can save their favourite journals, track their progress, and access previous entries.
+
+## Technologies used
+### Languages
+- HTML
+- CSS
+- JS
+###  
+
+
+
+
+
 
 
 
