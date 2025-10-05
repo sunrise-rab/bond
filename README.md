@@ -176,11 +176,68 @@ Short Message: A friendly reminder about Bond’s mission – creativity, bondin
 - Users can save their favourite journals, track their progress, and access previous entries.
 
 ## Technologies used
+
 ### Languages
-- HTML
-- CSS
-- JS
-###  
+- [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+  
+### libraries and frameworks
+- [Bootstrap](https://getbootstrap.com/)
+- [Google font](https://fonts.google.com/)
+- [Favicon](https://favicon.io/)
+- [Awsomefont](https://fontawesome.com/)
+
+## Tools
+- [GitHub](https://github.com/)
+- [Balsamiq](https://balsamiq.com/product/)
+- [W3C HTML Validation Service](https://validator.w3.org/)
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [Am I Responsive](https://ui.dev/amiresponsive)
+- [Responsive Design Checker](https://responsivedesignchecker.com/)
+- [WAVE Accessibility Tool](https://wave.webaim.org/)
+- [Canva](https://www.canva.com/)
+- [Color Palette Generator](https://coolors.co/)
+- [Contrast Grid](https://contrastgrid.com/)
+
+
+  ## Tests
+
+  ### Bugs
+During the development of the Bond website, several bugs were encountered that affected layout, functionality, and validation. These issues were identified through manual testing, W3C validators. Each bug was carefully reviewed and resolved where possible.
+
+| **Bug** | **Status** | **Description** | **Steps to Resolve** |
+|--------------|------------|-----------------|-----------------------|
+| Mobile navbar didn’t close after click | Partially Fixed | On small screens the collapsed menu stayed open after clicking a link. | Added scroll-padding: 390px to html tag on a screen that is 820px or less.|
+| Contact form 405 error |  Fixed | Submit button showed “405 Not Allowed” because GitHub Pages doesn’t support POST. | Changed `method="post"` to `method="get"` to redirected to `success.html`. |
+| Success page not showing |  Fixed | After form submission, success page didn’t load. | Ensured `success.html` exists at repo root . |
+| Repo showed README instead of site |  Fixed | GitHub Pages opened README.md instead of the website. | changed the name of the main page to`index.html` instead of `home.html` as github only recognize `index.html`. |
+| Multiple `<h1>` warnings | Fixed | Validator flagged multiple `<h1>` tags across sections. | Kept one `<h1>` for main page title, changed others to `<h2>` and `<h3>`. |
+| Stray end tag error | Fixed | HTML validator reported an extra closing `</div>`/`</section>`. | Checked nesting and removed extra tag. |
+| Navbar active link not working | Unresolved | `:active` only applied while clicking on Home. | I need to use Javascript in order to fix this problem |
+| Carousel height inconsistent |  Fixed | Images stretched/jumped at different breakpoints. | Set fixed heights in media queries. |
+
+
+## Responseviness tests
+
+I have simultaneously tested the responsiviness of the website using DevTools browser for google Chrome. I  the mobile-first strategy and verified all of my modifications using the DevTools browsers for Google Chrome and Microsoft Edge. Deployed versions were tested using the external website Responsive Design Checker. The Am I Responsive website was another external source that was used to obtain a unified view of different device breakpoints.
+
+
+
+| **Size** | **Device Example** | **Navigation** | **Element Alignments** |**Content Placement**| **Functionalty**| **Notes**|
+|------------------|-----------------|---------------|--------------|------------|-----------------|-----------------------|
+|sm	|Samsung Galaxy S5 S6 S7	|Good|	Good|	Good	|Good	|
+|sm	|iPhone 6s plus/ 7 plus	|Good	|Good|	Good|	Good	||
+|sm	|iPhone 14 PRO MAX|	Good	|Good	|Good	|Good	||
+|md	|iPad MINI	|Good|	Good|	Good|	Good	|
+|md|	Galaxy Tab S10|	Good|	Good|	Good|	Good	|
+|md|	iPad Air	|Good|	Good	|Good	|Good	|
+|lg|	iPad Pro|	Good	|Good|	Good|	Good	|
+|xl|	Mackbook Air|	Good|	Good|	Good	|Good|
+|xl|	HP Stream Laptop|	Good	|Good	|Good	|Good	|
+|xxl|	Dell Lattitude	|Good|	Good	|Good	|Good	||
+|xxl	|Desktop|	Good|	Good	|Good	|Good	|
+
+
 
 
 
