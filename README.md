@@ -1,7 +1,8 @@
-# bond
+# Bond
 Bond is a child-friendly journaling website that encourages kids aged 5 and up to express themselves through creativity, reflection, and fun printable activities. Inspired by the idea that children grow through love, imagination, and emotional connection, Bond offers a space where writing becomes magical.
-Children can explore a variety of printable journals, coloring sheets, reward charts, and mood trackers — all designed to build confidence, independence, and mindfulness. Whether a child wants to start a gratitude journal, track habits, or express emotions through colors, Bond gives them the tools to do so in a playful, safe, and accessible way.
-The project uses HTML, CSS, and a little JavaScript, focusing on responsive design to ensure accessibility across desktop, tablet, and mobile screens.
+Children can explore a variety of printable journals, colouring sheets, reward charts, and mood trackers — all designed to build confidence, independence, and mindfulness. Whether a child wants to start a gratitude journal, track habits, or express emotions through colours, Bond gives them the tools to do so in a playful, safe, and accessible way.
+The project uses HTML, CSS, and a little JavaScript, focusing on responsive design to ensure accessibility across desktop, tablet, and mobile screens.<br><br>
+![bond](docs/responsive-bond.png)
 
 # Website Goals and Objectives
 Create a welcoming and visually appealing space for children to explore journaling
@@ -68,7 +69,182 @@ The colour palette for Bond was carefully chosen to reflect creativity, warmth, 
 
 To ensure the website is accessible and the textis readable for users, I used Contrast Grid to testhe contrast between background and the text colors.
 
-![The colour palette](docs/contrast grid.png)
+![The colour palette](docs/contrast-grid.png)
+
+## Responsive Design Media Queries
+The website was built with a responsive design approach to ensure it works well on a wide range of devices, including mobiles, tablets, and desktops. The goal of this design is to provide a consistent and user-friendly experience for all users, no matter what device they are using.
+
+
+| Screen Size / Device        | Media Query                        | Adjustments Made                                                                 |
+|------------------------------|------------------------------------|---------------------------------------------------------------------------------|
+| **≤ 412px (extra small)**   | `@media screen and (max-width: 412px)` | Carousel height fixed at **214px**.                                             |
+| **≤ 575.98px (small devices)** | `@media screen and (max-width: 575.98px)` | - Benefits grid becomes **1 column** <br> - Social media margin-top removed <br> - Subscribe margin-bottom removed |
+| **≥ 768px (medium devices / tablets)** | `@media screen and (min-width: 768px)` | Journal card text min-height set to **143px** <br> Carousel height fixed at **427px** |
+| **≥ 1024px (large devices / tablets)** | `@media screen and (min-width: 1024px)` | Journal card text min-height set to **120px** <br> Carousel height fixed at **596px** |
+| **≥ 1200px (extra large devices)** | `@media screen and (min-width: 1200px)` | Journal card text min-height set to **192px** <br> Carousel height fixed at **425px** <br> Printable cards images set to **430px height** |
+
+## Images 
+Images for journals, printables, and the carousel were sourced from [Freepik](https://www.freepik.com/) and [Pinterest](https://uk.pinterest.com/).<br>
+The logo was created with the assistance of [ChatGPT](https://chatgpt.com/).
+
+## Features
+
+### Navigation Bar
+
+A responsive navbar that adapts to mobile and desktop screens.
+
+Contains four main sections: Home, Printables, Journals and Contact Us 
+
+ ### Home Section
+
+Hero Carousel: A rotating image display featuring children journaling and some examples of our charts and activities.
+
+Introduction Text: Explains the purpose of Bond – a fun and creative space for kids to write, to bond, and explore their feelings.
+
+
+### Journals Section
+
+Travel Journal: A printable journal to record adventures, trips, and discoveries. Includes space for writing, drawing, and rating experiences.
+
+Gratitude Journal: Encourages children to reflect on what they are thankful for, with prompts like “Today I am grateful for” and “My intention for the day”.
+
+Daily Journal: A structured space for children to track their daily activities, moods, and goals, helping them build routines.
+
+Summer Journal: A seasonal journal to record holiday memories, new skills learned, and fun activities during the summer break.
+
+### Benefits of Journaling Section
+
+Boosts Emotional Intelligence: Helps children identify and express feelings.
+
+Encourages Creativity & Self-Expression: Provides a safe space for storytelling, doodling, and reflection.
+
+Improves Focus & Goal-Setting: Tools like reward charts support independence and responsibility.
+
+Strengthens Parent-Child Bond: Promotes conversations and shared activities between parents and children.
+
+### Printables Section
+
+Organised into three categories with downloadable/printable resources:
+
+#### Mindfulness Strategies & Inspirational Words
+
+Positive affirmations posters (“I am kind, I am brave, I am enough”).
+
+A–Z coping skills sheet for mindfulness.
+
+Sticky “Notes to Self” with encouraging messages.
+
+“Take a Mindful B.R.E.A.K” guide for calming down.
+
+#### Planning & Chore Charts
+
+Daily responsibilities chart (track simple tasks like tidying up or brushing teeth).
+
+Homework tracker for assignments and due dates.
+
+“My Daily Helper” visual schedule with icons for younger kids.
+
+“All About Me” worksheet for children to share hobbies, favourites, and dreams.
+
+#### Reward Charts & Stickers
+
+Behaviour chart to encourage positive habits.
+
+chart with milestones.
+
+Motivation stickers with phrases like “You are brave” and “Well done”.
+
+Star sticker sheet for achievements.
+
+### Contact Us Section
+
+A simple contact form with fields for: Name, Email, Message. On successful submission, users are redirected to a Success page.
+
+### Footer Section
+
+Subscribe Box: Allows users to enter their email to stay updated.
+
+Social Media Links: Icons for platforms like Facebook, Instagram, Twitter and Pinterest.
+
+Short Message: A friendly reminder about Bond’s mission – creativity, bonding, and growth.
+
+## Future enhancement 
+- Add a secure login system for parents and children.
+- Add a download and print button, which allows the user to print or download any chart or journal directly from the website.
+- Introduce rewards or badges when children complete journaling tasks.
+- Let users pick themes, colours, or stickers before downloading charts and journals.
+- Users can save their favourite journals, track their progress, and access previous entries.
+
+## Technologies used
+
+### Languages
+- [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+  
+### libraries and frameworks
+- [Bootstrap](https://getbootstrap.com/)
+- [Google font](https://fonts.google.com/)
+- [Favicon](https://favicon.io/)
+- [Awsomefont](https://fontawesome.com/)
+
+## Tools
+- [GitHub](https://github.com/)
+- [Balsamiq](https://balsamiq.com/product/)
+- [W3C HTML Validation Service](https://validator.w3.org/)
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [Am I Responsive](https://ui.dev/amiresponsive)
+- [Responsive Design Checker](https://responsivedesignchecker.com/)
+- [WAVE Accessibility Tool](https://wave.webaim.org/)
+- [Canva](https://www.canva.com/)
+- [Color Palette Generator](https://coolors.co/)
+- [Contrast Grid](https://contrastgrid.com/)
+
+
+  ## Tests
+
+  ### Bugs
+During the development of the Bond website, several bugs were encountered that affected layout, functionality, and validation. These issues were identified through manual testing, W3C validators. Each bug was carefully reviewed and resolved where possible.
+
+| **Bug** | **Status** | **Description** | **Steps to Resolve** |
+|--------------|------------|-----------------|-----------------------|
+| Mobile navbar didn’t close after click | Partially Fixed | On small screens the collapsed menu stayed open after clicking a link. | Added scroll-padding: 390px to html tag on a screen that is 820px or less.|
+| Contact form 405 error |  Fixed | Submit button showed “405 Not Allowed” because GitHub Pages doesn’t support POST. | Changed `method="post"` to `method="get"` to redirected to `success.html`. |
+| Success page not showing |  Fixed | After form submission, success page didn’t load. | Ensured `success.html` exists at repo root . |
+| Repo showed README instead of site |  Fixed | GitHub Pages opened README.md instead of the website. | changed the name of the main page to`index.html` instead of `home.html` as github only recognize `index.html`. |
+| Multiple `<h1>` warnings | Fixed | Validator flagged multiple `<h1>` tags across sections. | Kept one `<h1>` for main page title, changed others to `<h2>` and `<h3>`. |
+| Stray end tag error | Fixed | HTML validator reported an extra closing `</div>`/`</section>`. | Checked nesting and removed extra tag. |
+| Navbar active link not working | Unresolved | `:active` only applied while clicking on Home. | I need to use Javascript in order to fix this problem |
+| Carousel height inconsistent |  Fixed | Images stretched/jumped at different breakpoints. | Set fixed heights in media queries. |
+
+
+## Responseviness tests
+
+I have simultaneously tested the responsiviness of the website using DevTools browser for google Chrome. I  the mobile-first strategy and verified all of my modifications using the DevTools browsers for Google Chrome and Microsoft Edge. Deployed versions were tested using the external website Responsive Design Checker. The Am I Responsive website was another external source that was used to obtain a unified view of different device breakpoints.
+
+
+
+| **Size** | **Device Example** | **Navigation** | **Element Alignments** |**Content Placement**| **Functionalty**| **Notes**|
+|------------------|-----------------|---------------|--------------|------------|-----------------|-----------------------|
+|sm	|Samsung Galaxy S5 S6 S7	|Good|	Good|	Good	|Good	|
+|sm	|iPhone 6s plus/ 7 plus	|Good	|Good|	Good|	Good	||
+|sm	|iPhone 14 PRO MAX|	Good	|Good	|Good	|Good	||
+|md	|iPad MINI	|Good|	Good|	Good|	Good	|
+|md|	Galaxy Tab S10|	Good|	Good|	Good|	Good	|
+|md|	iPad Air	|Good|	Good	|Good	|Good	|
+|lg|	iPad Pro|	Good	|Good|	Good|	Good	|
+|xl|	Mackbook Air|	Good|	Good|	Good	|Good|
+|xl|	HP Stream Laptop|	Good	|Good	|Good	|Good	|
+|xxl|	Dell Lattitude	|Good|	Good	|Good	|Good	||
+|xxl	|Desktop|	Good|	Good	|Good	|Good	|
+
+
+
+
+
+
+
+
+
 
 
 
