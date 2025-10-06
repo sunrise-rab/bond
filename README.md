@@ -237,6 +237,12 @@ I have simultaneously tested the responsiviness of the website using DevTools br
 |xxl|	Dell Lattitude	|Good|	Good	|Good	|Good	||
 |xxl	|Desktop|	Good|	Good	|Good	|Good	|
 
+## Code validation 
+### HTML Validation
+I used [W3C HTML Validation Service](https://validator.w3.org/) to test the code of three bond files:
+#### The main page index.httml
+
+
 
 
 
