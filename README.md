@@ -269,10 +269,53 @@ Accessibility - test analyses how well people who use assistive technologies can
 Best Practices - checks whether the page is built on the modern standards of web development.
 SEO - checks if the website is optimised for search engine result rankings.
 
- ![Tests for Desktop on Lighthouse Chrome](docs/chrome-desktop-lighthouse.png)
- ![Tests for Phone on Lighthouse Chrome](docs/chrome-mobile-lighthouse.png)
- ![Tests for Desktop on Edge Lighthouse ](docs/edge-lighthouse-desktop.png)
+ ![Tests for Desktop on Lighthouse Chrome](docs/chrome-desktop-lighthouse.png)<br><br>
+ ![Tests for Phone on Lighthouse Chrome](docs/chrome-mobile-lighthouse.png)<br><br>
+ ![Tests for Desktop on Edge Lighthouse ](docs/edge-lighthouse-desktop.png)<br><br>
  ![Tests for Phone on Edge Lighthouse ](docs/edge-lighthouse-phone.png)
+
+## Deployment
+
+Bond was deployed early in the process to GitHub pages via the following steps:
+
+- Navigate to the repository on GitHub and click on Settings.
+- In the side navigation and select Pages.
+- In the None dropdown and choose Main.
+- Click on the Save button.
+- The website is now live at https://sunrise-rab.github.io/bond/index.html.
+
+Any changes required to the website, they can be made, committed and pushed to GitHub.
+
+## Fork the project
+Forking the GitHub repository allows you to create a duplicate of a local repository. This is done so that modifications to the copy can be performed without compromising the original repository.
+
+- Log in to GitHub.
+- Locate the repository.
+- Click to open it.
+- The fork button is located on the right side of the repository menu.
+- To copy the repository to your GitHub account, click the button.
+  Now you have your own version you can commit, edit, and even make pull requests to the original project.
+  
+  ## To clone the project
+- Log in to GitHub.
+- Navigate to the main page of the repository and click Code.
+- Copy the URL for the repository.
+- Open your local terminal or VS Code.
+- Change the current working directory to the location where you want the cloned directory.
+- Type git clone, and then paste the URL you copied earlier.
+- Press Enter to create your local clone.
+
+#Credits
+- Feedback, advice and support
+  + [Simen Daehlin](https://github.com/Eventyret)
+- Code inspiration and learning content:
+  + Boardwalk project.
+  + [W3C Schools](https://www.w3schools.com/)
+  + [Mindfulmazing](https://www.mindfulmazing.com/)
+  
+ 
+
+
 
  
 
