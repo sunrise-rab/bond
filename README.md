@@ -1,16 +1,15 @@
 # Bond
 Bond is a child-friendly journaling website that encourages kids aged 5 and up to express themselves through creativity, reflection, and fun printable activities. Inspired by the idea that children grow through love, imagination, and emotional connection, Bond offers a space where writing becomes magical.
-Children can explore a variety of printable journals, colouring sheets, reward charts, and mood trackers — all designed to build confidence, independence, and mindfulness. Whether a child wants to start a gratitude journal, track habits, or express emotions through colours, Bond gives them the tools to do so in a playful, safe, and accessible way.
-The project uses HTML, CSS, and a little JavaScript, focusing on responsive design to ensure accessibility across desktop, tablet, and mobile screens.<br><br>
+Children can explore a variety of printable journals, reward charts, and mood trackers — all designed to build confidence, independence, and mindfulness. Whether a child wants to start a gratitude journal, track habits, or express emotions through colours, Bond gives them the tools to do so in a playful, safe, and accessible way.
+The project uses HTML, CSS, and Bootstrap focusing on responsive design to ensure accessibility across desktop, tablet, and mobile screens.<br><br>
 ![bond](docs/responsive-bond.png)
 
 # Website Goals and Objectives
 Create a welcoming and visually appealing space for children to explore journaling
 Promote emotional intelligence, creativity, and routine-building habits
-Offer free downloadable and printable resources to support self-expression
+Offer free printable resources to support self-expression
 Encourage family bonding, classroom activity, or individual reflection
 Ensure a responsive design that works across all devices
-Deliver a beginner-friendly, static website suitable for Code Institute’s Project 1 scope
 
 # User Goals
 Children want a fun and colorful space to write, color, and feel proud of their ideas.
@@ -21,24 +20,20 @@ Teachers may want printable resources for classroom journaling or group reflecti
  ## As a child, I want:
 To choose different types of journals, so I can write about my day, feelings, or things I’m thankful for.
 The journals to look fun and colorful, so I feel excited to write in them.
-To download mood trackers or coloring pages, so I can use them offline in a creative way.
-To download and use sticker charts to track my progress and habits.
-To feel proud of what I write and draw, so I can share it with my family.
-To tell the website what I’d like to see next — like new journals or sticker designs — so I feel heard and included.
 
 ## As a parent, I want:
-Free and safe journaling resources that help my child grow emotionally and creatively.
-To encourage my child to be independent, reflective, and confident through fun activities.
-To easily download reward charts that help them build good habits like kindness, reading, or helping at home.
-To use journaling as a bonding activity where we sit and talk about their day.
+I want to be able to subscride so I can recieve notifications about new, free and safe journaling resources that help my child grow emotionally and creatively.
+To print reward charts that help them build good habits like kindness, reading, or helping at home.
 
  ## As a teacher, I want:
-Printable journal pages and mood trackers I can use in class to support SEL (Social Emotional Learning).
 A simple and child-friendly website to recommend to parents or colleagues.
 A way for children to express themselves outside of academic tasks — through drawing, writing, and reflection.
 Tools like emotion charts and sticker rewards to motivate positive behaviour in the classroom.
 
 ## As a user, I want:
+To learn about the benefits of journaling, so I can understand how it supports children's creativity, emotional growth,self-expression and enhance family bond.
+To access journals and printables easily  so I can use them offline in a creative way.
+To tell the website what I’d like to see next — like new journals or sticker designs — so I feel heard and included.
 To be able to use the website on a range of devices (phone, tablet, desktop), so I can access content wherever I am.
 To be able to send a message or suggestion about the content of the website, so I can contribute ideas or ask for new features
 
@@ -240,7 +235,114 @@ I have simultaneously tested the responsiviness of the website using DevTools br
 ## Code validation 
 ### HTML Validation
 I used [W3C HTML Validation Service](https://validator.w3.org/) to test the code of three bond files:
-#### The main page index.httml
+
+#### The main page index
+![main page](docs/html-checker-index.png)
+
+#### Subscribed Successfully page
+![main page](docs/html-checker-subscribe.png)
+
+#### Successfully contacted feedback page.
+![main page](docs/html-checker-success.png)
+
+### CSS Validation
+I used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to test css file code. It all came up clean with no errors.
+![CSS](docs/css-validator.png)
+
+## User stories tests
+
+| **User story** | **Result** | **Pass** | **proof** |
+|--------------|------------|-----------------|-----------------------|
+| As a child, I want To choose different types of journals, so I can write about my day, feelings, or things I’m thankful for.| The website displays wide rage of journals to choose from| Yes| |
+|As a user, I want To tell the website what I’d like to see next — like new journals or sticker designs — so I feel that my child is heard and included.|There is a contact form in Bond website that allows parents to get in touch and suggest new journals or resources to be added| Yes| |
+|As a user, I want To learn about the benefits of journaling, so I can understand how it supports children's creativity, emotional growth,self-expression and enhance family bond.| There is a section in the Bond website it states few benefits of journaling individually or as a family|yes||
+| As a parent, I want to be able to subscride so I can recieve notifications about new, free and safe journaling resources that help my child grow emotionally and creatively.|In the footer of Bond website there is a form where you can enter your email address and press on subscribe button to receive the newest updates.|yes||
+|As a child, I want the journals to look fun and colorful, so I feel excited to write in them| Bond offers a wide range of colourful, child-friendly printables and journals to choose from|yes| |
+|As a user, I want access journals and printables easily  so I can use them offline in a creative way.| In journals section if you press view & print button the journal will open in a diffrent tab then you can use the three dots on the write of the browser then you can press print this will allow you to print the document or save it in your computer.| yes ||
+| As a user, I want to be able to use the website on a range of devices (phone, tablet, desktop), so I can access content wherever I am.| the website is been tested on phone, tablet and desktop screens The all work perfect without any issues.| yes||
+
+
+
+
+
+
+
+Browser Testing
+The Animation Quiz website was examined for bugs and malfunctions using a variety of browsers. Opera, Firefox, Google Chrome, and Microsoft Edge were selected for thorough testing. Additionally, I have registered with BrowserStack in order to test my page on both Safari and Internet Explorer. Due to its age, Internet Explorer's initial results were quite subpar. On an iPad and an iPhone, I tested Safari. For the website's final version, no significant problems were discovered on the top 4 browsers. The test findings were verified.
+
+Browser Compatibility Manual Test
+
+Back to top
+
+Deployment
+To deploy the project
+The Ultimate Animation Quiz was deployed early in the process to GitHub pages via the following steps:
+
+Navigate to the repository on GitHub and click on Settings.
+
+In the side navigation and select Pages.
+
+In the None dropdown and choose Main.
+
+Click on the Save button.
+
+The website is now live at https://indre-v.github.io/animation-quiz/.
+
+Any changes required to the website, they can be made, committed and pushed to GitHub.
+
+Back to top
+
+To fork the project
+Forking the GitHub repository allows you to create a duplicate of a local repository. This is done so that modifications to the copy can be performed without compromising the original repository.
+
+Log in to GitHub.
+Locate the repository.
+Click to open it.
+The fork button is located on the right side of the repository menu.
+To copy the repository to your GitHub account, click the button.
+To clone the project
+Log in to GitHub.
+Navigate to the main page of the repository and click Code.
+Copy the URL for the repository.
+Open your local IDE.
+Change the current working directory to the location where you want the cloned directory.
+Type git clone, and then paste the URL you copied earlier.
+Press Enter to create your local clone.
+Back to top
+
+Credits
+Feedback, advice and support:
+
+Simen Daehlin
+Quiz Questions
+
+Open Trivia DB
+Code inspiration and learning content:
+
+Project Portfolio-2 channel on Slack
+Love Maths Project
+W3C Schools
+StackOverflow
+CodePen
+YouTube Channels for Quiz functionality and API Fetch:
+
+Keep Coding
+Web Dev Simplified
+Great Stack
+James Q Quick
+Ali Aslan
+Code Explained
+Visual content:
+
+Coolors
+Contrast Grid
+Images:
+
+Gencraft
+
+
+
+
 
 
 
