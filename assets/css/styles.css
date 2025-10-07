@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Fredoka:wght@300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* CSS Variables*/
 :root{
@@ -13,13 +14,11 @@
     --title-color: #A6DCEF;
 
 }
-html{
-    scroll-padding-top: 100px;
-    scroll-behavior: smooth;
-}
+
 body{
     font-family: var(--primary-font);
     color: var(--primary-color);
+    padding-top: 88px;
 }
 h1, h2, h3{
     font-family: var(--secondary-font);
@@ -40,9 +39,24 @@ h3{
 
 
 .section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding-top: 5.2rem; /* To prevent the navbar overlaps the heading sections*/
 }
+#header.section {
+    padding-top: 4rem; /*Reduce padding top from header section*/
+}
+
+#contact-us.section{
+    margin-bottom: 2rem; /* Add some margin to the bottom of the contact-us section */
+}
+
+#subscribe.section{
+    padding-bottom: 5.2rem;/*Add bottom padding to the successfull subscription page*/
+}
+
+#success.section{
+    padding-bottom: 5.2rem;/*Add bottom padding to the successfull contact page*/
+}
+
 
 #navbar{
     background-color:var(--navy-color);
@@ -83,7 +97,9 @@ h3{
     font-family: var(--secondary-font);
 }
 #journal .btn-primary:hover{
-    transform: rotate(3deg); /* this will rotate the button once the user is hovering over the button */
+    -webkit-transform: rotate(3deg);
+        -ms-transform: rotate(3deg);
+            transform: rotate(3deg); /* this will rotate the button once the user is hovering over the button */
     background-color:var(--secondary-color);
 }
 
@@ -102,7 +118,8 @@ h3{
    
     height: 100%;       /* make images fill that height */
     width: 100%;        /* keep width full */
-    object-fit: cover; /* makes the image fill the carousel-item div*/
+    -o-object-fit: cover;
+       object-fit: cover; /* makes the image fill the container*/
     
   }
 /* Styling journal cards*/
@@ -121,6 +138,7 @@ h3{
 }
 /* create a two column grid*/
 .benefits-grid{
+    -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -133,20 +151,26 @@ h3{
 
 #printables .card{
     border: 0px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* This tells the browser to smoothly animate two properties transition and box-shadow */
+    -webkit-transition: -webkit-transform 0.3s ease, -webkit-box-shadow 0.3s ease;
+    transition: -webkit-transform 0.3s ease, -webkit-box-shadow 0.3s ease;
+    -o-transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, -webkit-transform 0.3s ease, -webkit-box-shadow 0.3s ease; /* This tells the browser to smoothly animate two properties transition and box-shadow */
 }
-
 /* Using hover to make the cards stand out individually*/
 #printables .card:hover{
-    transform: translateY(-5px); /* This moves the card 5px upwards making it look like if it is lifting*/
-    box-shadow: 0px 8px 16px  rgba(0, 0, 0, 0.15);
+    -webkit-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+            transform: translateY(-5px); /* This moves the card 5px upwards making it look like if it is lifting*/
+    -webkit-box-shadow: 0px 8px 16px  rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 8px 16px  rgba(0, 0, 0, 0.15);
 }
-
 /* Make the printable cards have same height*/
 #printables img{
     height: 400px;
     width: auto;
 }
+
 
 
 /*footer styles*/
@@ -219,11 +243,20 @@ h3{
 
 
   /*Media queries*/
-/* X-small devices (portrait phones, width of 412px or  less)*/
+
+/*X-small devices (portrait phones, width of 375px or  less)*/
+@media screen and (max-width: 375px){
+    /*make carousel height fixed on a screen of a maximum width of 375px*/
+    #carousel{
+        height: 236px;
+    }
+}
+
+/* X-small devices (portrait phones, width of 414px or  more)*/
   @media screen and (min-width: 412px){
     /*make carousel height fixed on a screen of a minimum width of 412px*/
     #carousel{
-        height: 214px;
+        height: 263px;
     }
 }
 
@@ -231,6 +264,7 @@ h3{
   @media screen and (max-width: 575.98px){
     /* create a one column grid that will be responsive on a 576 screen or less*/
      .benefits-grid{
+        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
      }
      /* Clear margin in small devices*/
@@ -240,6 +274,7 @@ h3{
      .subscribe{
          margin-bottom: 0px !important;
      }
+    
 }
   /* Medium devices (tablets, 768px and up)*/
   @media screen and (min-width: 768px){
@@ -249,16 +284,10 @@ h3{
     }
     /*make carousel height fixed on a screen of a minimum width of 768px*/
     #carousel{
-        height: 427px;
+        height: 467px;
     }
 }
 
-/* Create a scrole padding for screens with max width of 820px */
-  @media screen and (max-width: 820px){
-   html{
-        scroll-padding: 390px;
-     }
-}
 /* Large devices (tablets, 1024px and up)*/
   @media screen and (min-width: 1024px){
     /*make all journal cards the same height for consistency*/
@@ -279,7 +308,7 @@ h3{
     }
     /*Make carousel height fixed on a screen of a minimum width of 1200px*/
     #carousel{
-        height: 425px;
+        height: 366px;
     }
     /* Make the printable cards have same height in a screen of a minimum width of 1200px*/
     #printables img {

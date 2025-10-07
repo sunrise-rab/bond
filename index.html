@@ -22,7 +22,7 @@
 <!--d-flex and flex-column min-vh-100 works with mt-auto to insure footer always stays and the bottom-->
 <body class="d-flex flex-column min-vh-100">
     <!--Navbar section-->
-    <nav id="navbar" class="navbar navbar-expand-lg sticky-top" data-bs-theme="dark">
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
         <div class="container">
           <a class="navbar-brand" href="index.html"><img src="assets/images/logo.webp" alt="Bond logo" class="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
@@ -50,7 +50,7 @@
       </nav>
 
     <!--Header with carousel-->
-    <header class="container section">
+    <header id="header" class="container section">
         <div class="row">
              <div class="col-12 col-xl-6">
                  
@@ -446,5 +446,27 @@
      crossorigin="anonymous"></script>
      <!--Font Awesome Kit-->
      <script src="https://kit.fontawesome.com/5cfdac059a.js" crossorigin="anonymous"></script>
+
+     <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+     <script>
+      document
+          .querySelectorAll(".navbar-collapse .nav-link")
+          .forEach((link) => {
+              link.addEventListener("click", function (e) {
+                  let section = document.querySelector(e.target.getAttribute("href"));
+                  if (section) {
+                      e.preventDefault(); // Prevent default anchor click behavior
+                      let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                      window.scroll({
+                          top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                          behavior: "smooth",
+                      });
+                      document
+                          .querySelector(".navbar-collapse")
+                          .classList.remove("show"); // Collapse navbar
+                  }
+              });
+          });
+    </script>
 </body>
 </html>
