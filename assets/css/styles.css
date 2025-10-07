@@ -102,7 +102,7 @@ h3{
    
     height: 100%;       /* make images fill that height */
     width: 100%;        /* keep width full */
-    object-fit: cover;
+    object-fit: cover; /* makes the image fill the carousel-item div*/
     
   }
 /* Styling journal cards*/
@@ -135,17 +135,18 @@ h3{
     border: 0px;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* This tells the browser to smoothly animate two properties transition and box-shadow */
 }
+
 /* Using hover to make the cards stand out individually*/
 #printables .card:hover{
     transform: translateY(-5px); /* This moves the card 5px upwards making it look like if it is lifting*/
     box-shadow: 0px 8px 16px  rgba(0, 0, 0, 0.15);
 }
+
 /* Make the printable cards have same height*/
 #printables img{
     height: 400px;
     width: auto;
 }
-
 
 
 /*footer styles*/
