@@ -4,6 +4,59 @@ Children can explore a variety of printable journals, reward charts, and mood tr
 The project uses HTML, CSS, and Bootstrap focusing on responsive design to ensure accessibility across desktop, tablet, and mobile screens.<br><br>
 ![bond](docs/responsive-bond.png)
 
+## Table of Contents
+- [Bond](#bond)
+- [Website Goals and Objectives](#website-goals-and-objectives)
+- [User Goals](#user-goals)
+- [User Stories](#user-stories)
+  - [As a child, I want:](#as-a-child-i-want)
+  - [As a parent, I want:](#as-a-parent-i-want)
+  - [As a teacher, I want:](#as-a-teacher-i-want)
+  - [As a user, I want:](#as-a-user-i-want)
+- [Target Audience](#target-audience)
+- [Wireframe](#wireframe)
+  - [Iphone wireframe](#iphone-wireframe)
+  - [Ipad wireframe](#ipad-wireframe)
+  - [Desktop wireframe](#desktop-wireframe)
+- [Design Choices](#design-choices)
+  - [Typography](#typography)
+  - [Colour Scheme](#colour-scheme)
+  - [Responsive Design Media Queries](#responsive-design-media-queries)
+- [Images](#images)
+- [Features](#features)
+  - [Navigation Bar](#navigation-bar)
+  - [Home Section](#home-section)
+  - [Journals Section](#journals-section)
+  - [Benefits of Journaling Section](#benefits-of-journaling-section)
+  - [Printables Section](#printables-section)
+    - [Mindfulness Strategies & Inspirational Words](#mindfulness-strategies--inspirational-words)
+    - [Planning & Chore Charts](#planning--chore-charts)
+    - [Reward Charts & Stickers](#reward-charts--stickers)
+  - [Contact Us Section](#contact-us-section)
+  - [Footer Section](#footer-section)
+- [Future enhancement](#future-enhancement)
+- [Technologies used](#technologies-used)
+  - [Languages](#languages)
+  - [libraries and frameworks](#libraries-and-frameworks)
+  - [Tools](#tools)
+- [Tests](#tests)
+  - [Bugs](#bugs)
+  - [Responseviness tests](#responseviness-tests)
+  - [Code validation](#code-validation)
+    - [HTML Validation](#html-validation)
+      - [The main page index](#the-main-page-index)
+      - [Subscribed Successfully page](#subscribed-successfully-page)
+      - [Successfully contacted feedback page](#successfully-contacted-feedback-page)
+    - [CSS Validation](#css-validation)
+  - [User stories tests](#user-stories-tests)
+  - [Lighthouse Testing](#lighthouse-testing)
+- [Deployment](#deployment)
+  - [Fork the project](#fork-the-project)
+  - [To clone the project](#to-clone-the-project)
+- [Credits](#credits)
+
+
+
 # Website Goals and Objectives
 Create a welcoming and visually appealing space for children to explore journaling
 Promote emotional intelligence, creativity, and routine-building habits
@@ -12,30 +65,30 @@ Encourage family bonding, classroom activity, or individual reflection
 Ensure a responsive design that works across all devices
 
 # User Goals
-Children want a fun and colorful space to write, color, and feel proud of their ideas.
-Parents want tools to help their children become more mindful, independent, and confident.
-Teachers may want printable resources for classroom journaling or group reflections.
+- Children want a fun and colorful space to write, color, and feel proud of their ideas.
+- Parents want tools to help their children become more mindful, independent, and confident.
+- Teachers may want printable resources for classroom journaling or group reflections.
 
 # User Stories
  ## As a child, I want:
-To choose different types of journals, so I can write about my day, feelings, or things I’m thankful for.
-The journals to look fun and colorful, so I feel excited to write in them.
+- To choose different types of journals, so I can write about my day, feelings, or things I’m thankful for.
+- The journals to look fun and colorful, so I feel excited to write in them.
 
 ## As a parent, I want:
-I want to be able to subscride so I can recieve notifications about new, free and safe journaling resources that help my child grow emotionally and creatively.
-To print reward charts that help them build good habits like kindness, reading, or helping at home.
+- I want to be able to subscride so I can recieve notifications about new, free and safe journaling resources that help my child grow emotionally and creatively.
+- To print reward charts that help them build good habits like kindness, reading, or helping at home.
 
  ## As a teacher, I want:
-A simple and child-friendly website to recommend to parents or colleagues.
-A way for children to express themselves outside of academic tasks — through drawing, writing, and reflection.
-Tools like emotion charts and sticker rewards to motivate positive behaviour in the classroom.
+- A simple and child-friendly website to recommend to parents or colleagues.
+- A way for children to express themselves outside of academic tasks — through drawing, writing, and reflection.
+- Tools like emotion charts and sticker rewards to motivate positive behaviour in the classroom.
 
 ## As a user, I want:
-To learn about the benefits of journaling, so I can understand how it supports children's creativity, emotional growth,self-expression and enhance family bond.
-To access journals and printables easily  so I can use them offline in a creative way.
-To tell the website what I’d like to see next — like new journals or sticker designs — so I feel heard and included.
-To be able to use the website on a range of devices (phone, tablet, desktop), so I can access content wherever I am.
-To be able to send a message or suggestion about the content of the website, so I can contribute ideas or ask for new features
+- To learn about the benefits of journaling, so I can understand how it supports children's creativity, emotional growth,self-expression and enhance family bond.
+- To access journals and printables easily  so I can use them offline in a creative way.
+- To tell what I’d like to see next — like new journals or sticker designs — so I feel heard and included.
+- To be able to use the website on a range of devices (phone, tablet, desktop), so I can access content wherever I am.
+- To be able to send a message or suggestion about the content of the website, so I can contribute ideas or ask for new features
 
 # Target Audience:
 Children aged 5+.
@@ -82,22 +135,22 @@ The website was built with a responsive design approach to ensure it works well 
 Images for journals, printables, and the carousel were sourced from [Freepik](https://www.freepik.com/) and [Pinterest](https://uk.pinterest.com/).<br>
 The logo was created with the assistance of [ChatGPT](https://chatgpt.com/).
 
-## Features
+# Features
 
-### Navigation Bar
+## Navigation Bar
 
 A responsive navbar that adapts to mobile and desktop screens.
 
 Contains four main sections: Home, Printables, Journals and Contact Us 
 
- ### Home Section
+ ## Home Section
 
 Hero Carousel: A rotating image display featuring children journaling and some examples of our charts and activities.
 
 Introduction Text: Explains the purpose of Bond – a fun and creative space for kids to write, to bond, and explore their feelings.
 
 
-### Journals Section
+## Journals Section
 
 Travel Journal: A printable journal to record adventures, trips, and discoveries. Includes space for writing, drawing, and rating experiences.
 
@@ -107,7 +160,7 @@ Daily Journal: A structured space for children to track their daily activities, 
 
 Summer Journal: A seasonal journal to record holiday memories, new skills learned, and fun activities during the summer break.
 
-### Benefits of Journaling Section
+## Benefits of Journaling Section
 
 Boosts Emotional Intelligence: Helps children identify and express feelings.
 
@@ -117,11 +170,11 @@ Improves Focus & Goal-Setting: Tools like reward charts support independence and
 
 Strengthens Parent-Child Bond: Promotes conversations and shared activities between parents and children.
 
-### Printables Section
+## Printables Section
 
 Organised into three categories with downloadable/printable resources:
 
-#### Mindfulness Strategies & Inspirational Words
+### Mindfulness Strategies & Inspirational Words
 
 Positive affirmations posters (“I am kind, I am brave, I am enough”).
 
@@ -131,7 +184,7 @@ Sticky “Notes to Self” with encouraging messages.
 
 “Take a Mindful B.R.E.A.K” guide for calming down.
 
-#### Planning & Chore Charts
+### Planning & Chore Charts
 
 Daily responsibilities chart (track simple tasks like tidying up or brushing teeth).
 
@@ -141,7 +194,7 @@ Homework tracker for assignments and due dates.
 
 “All About Me” worksheet for children to share hobbies, favourites, and dreams.
 
-#### Reward Charts & Stickers
+### Reward Charts & Stickers
 
 Behaviour chart to encourage positive habits.
 
@@ -151,26 +204,26 @@ Motivation stickers with phrases like “You are brave” and “Well done”.
 
 Star sticker sheet for achievements.
 
-### Contact Us Section
+## Contact Us Section
 
 A simple contact form with fields for: Name, Email, Message. On successful submission, users are redirected to a Success page.
 
-### Footer Section
+## Footer Section
 
-Subscribe Box: Allows users to enter their email to stay updated.
+  Subscribe Box: Allows users to enter their email to stay updated.
 
-Social Media Links: Icons for platforms like Facebook, Instagram, Twitter and Pinterest.
+  Social Media Links: Icons for platforms like Facebook, Instagram, Twitter and Pinterest.
 
-Short Message: A friendly reminder about Bond’s mission – creativity, bonding, and growth.
+  Short Message: A friendly reminder about Bond’s mission – creativity, bonding, and growth.
 
-## Future enhancement 
+# Future enhancement 
 - Add a secure login system for parents and children.
 - Add a download and print button, which allows the user to print or download any chart or journal directly from the website.
 - Introduce rewards or badges when children complete journaling tasks.
 - Let users pick themes, colours, or stickers before downloading charts and journals.
 - Users can save their favourite journals, track their progress, and access previous entries.
 
-## Technologies used
+# Technologies used
 
 ### Languages
 - [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
@@ -182,7 +235,7 @@ Short Message: A friendly reminder about Bond’s mission – creativity, bondin
 - [Favicon](https://favicon.io/)
 - [Awsomefont](https://fontawesome.com/)
 
-## Tools
+### Tools
 - [GitHub](https://github.com/)
 - [Balsamiq](https://balsamiq.com/product/)
 - [W3C HTML Validation Service](https://validator.w3.org/)
@@ -195,9 +248,9 @@ Short Message: A friendly reminder about Bond’s mission – creativity, bondin
 - [Contrast Grid](https://contrastgrid.com/)
 
 
-  ## Tests
+  # Tests
 
-  ### Bugs
+  ## Bugs
 During the development of the Bond website, several bugs were encountered that affected layout, functionality, and validation. These issues were identified through manual testing, W3C validators. Each bug was carefully reviewed and resolved where possible.
 
 | **Bug** | **Status** | **Description** | **Steps to Resolve** |
@@ -249,7 +302,7 @@ I used [W3C HTML Validation Service](https://validator.w3.org/) to test the code
 I used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to test css file code. It all came up clean with no errors.
 ![CSS](docs/css-validator.png)
 
-## User stories tests
+### User stories tests
 
 | **User story** | **Result** | **Pass** | **proof** |
 |--------------|------------|-----------------|-----------------------|
@@ -274,7 +327,7 @@ SEO - checks if the website is optimised for search engine result rankings.
  ![Tests for Desktop on Edge Lighthouse ](docs/edge-lighthouse-desktop.png)<br><br>
  ![Tests for Phone on Edge Lighthouse ](docs/edge-lighthouse-phone.png)
 
-## Deployment
+# Deployment
 
 Bond was deployed early in the process to GitHub pages via the following steps:
 
@@ -305,13 +358,27 @@ Forking the GitHub repository allows you to create a duplicate of a local reposi
 - Type git clone, and then paste the URL you copied earlier.
 - Press Enter to create your local clone.
 
-#Credits
+# Credits
+
 - Feedback, advice and support
   + [Simen Daehlin](https://github.com/Eventyret)
 - Code inspiration and learning content:
   + Boardwalk project.
   + [W3C Schools](https://www.w3schools.com/)
   + [Mindfulmazing](https://www.mindfulmazing.com/)
+   
+- Visual content:
+  + [Colors](https://coolors.co/)
+  + [Contrast Grid](https://contrastgrid.com/)
+   
+- Images:
+  + [Canva](https://www.canva.com/)
+  + [Pintrest](https://uk.pinterest.com/)
+     - [Etsy](https://uk.pinterest.com/search/pins/?q=etsy&rs=typed)
+     - [Natasha](Natasha | Free Printables | Kids Activities | Planner Printables)
+     
+ 
+ 
   
  
 
