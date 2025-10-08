@@ -373,9 +373,9 @@ Forking the GitHub repository allows you to create a duplicate of a local reposi
    
 - Images:
   + [Canva](https://www.canva.com/)
-  + [Pintrest](https://uk.pinterest.com/)
+  + [Pinterest](https://uk.pinterest.com/)
      - [Etsy](https://uk.pinterest.com/search/pins/?q=etsy&rs=typed)
-     - [Natasha](Natasha | Free Printables | Kids Activities | Planner Printables)
+     - [Natasha](uk.pinterest.com/natashalh/)
      
  
  
