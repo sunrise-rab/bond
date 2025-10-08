@@ -293,10 +293,10 @@ I used [W3C HTML Validation Service](https://validator.w3.org/) to test the code
 ![main page](docs/html-checker-index.png)
 
 #### Subscribed Successfully page
-![main page](docs/html-checker-subscribe.png)
+![Subscribe Successfully](docs/html-checker-subscribe.png)
 
 #### Successfully contacted feedback page.
-![main page](docs/html-checker-success.png)
+![Successfully contacted](docs/html-checker-success-contact.png)
 
 ### CSS Validation
 I used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to test css file code. It all came up clean with no errors.
