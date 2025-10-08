@@ -6,7 +6,7 @@ The project uses HTML, CSS, and Bootstrap focusing on responsive design to ensur
 
 ## Table of Contents
 - [Bond](#bond)
-- [Website Goals and Objectives](#website-goals-and-objectives)
+- [Rationale](#rationale)
 - [User Goals](#user-goals)
 - [User Stories](#user-stories)
   - [As a child, I want:](#as-a-child-i-want)
@@ -57,12 +57,10 @@ The project uses HTML, CSS, and Bootstrap focusing on responsive design to ensur
 
 
 
-# Website Goals and Objectives
-Create a welcoming and visually appealing space for children to explore journaling
-Promote emotional intelligence, creativity, and routine-building habits
-Offer free printable resources to support self-expression
-Encourage family bonding, classroom activity, or individual reflection
-Ensure a responsive design that works across all devices
+# Rationale
+Bond was created to provide children aged 5 and above with a fun, creative, and emotionally supportive space to express themselves through journaling. The project was inspired by the belief that children grow through love, creativity, and connection,yet most journaling platforms are designed for adults.
+
+Bond bridges that gap by offering colourful, printable journals and resources that encourage reflection, mindfulness, and positive habits. It empowers children to explore emotions in a safe, engaging way while helping parents and teachers nurture emotional intelligence and family bonding through shared creative activities.
 
 # User Goals
 - Children want a fun and colorful space to write, color, and feel proud of their ideas.
