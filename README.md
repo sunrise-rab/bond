@@ -244,6 +244,7 @@ A simple contact form with fields for: Name, Email, Message. On successful submi
 - [Canva](https://www.canva.com/)
 - [Color Palette Generator](https://coolors.co/)
 - [Contrast Grid](https://contrastgrid.com/)
+- [Squoosh to resize pictures](https://squoosh.app/)
 
 
   # Tests
