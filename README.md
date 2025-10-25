@@ -306,7 +306,7 @@ I used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to tes
 |--------------|------------|-----------------|-----------------------|
 | As a child, I want To choose different types of journals, so I can write about my day, feelings, or things I’m thankful for.| The website displays wide rage of journals to choose from| Yes|![Choose from our Journals](docs/journals.png) |
 |As a user, I want To tell the website what I’d like to see next — like new journals or sticker designs — so I feel that my child is heard and included.|There is a contact form in Bond website that allows parents to get in touch and suggest new journals or resources to be added| Yes|![Tell us your suggestion, or give us feedback](docs/contact.png) |
-|As a user, I want To learn about the benefits of journaling, so I can understand how it supports children's creativity, emotional growth,self-expression and enhance family bond.| There is a section in the Bond website it states few benefits of journaling individually or as a family|yes|![Learn about the benefit of journaling](docs/Journaling-benefits.png)|
+|As a user, I want To learn about the benefits of journaling, so I can understand how it supports children's creativity, emotional growth,self-expression and enhance family bond.| There is a section in the Bond website it states few benefits of journaling individually or as a family|yes|![Learn about the benefit of journaling](docs/benefits-journals.png)|
 | As a parent, I want to be able to subscride so I can recieve notifications about new, free and safe journaling resources that help my child grow emotionally and creatively.|In the footer of Bond website there is a form where you can enter your email address and press on subscribe button to receive the newest updates.|yes|![Subscribe so you can receive the newest updates](docs/subscribe.png)|
 |As a child, I want the journals to look fun and colorful, so I feel excited to write in them| Bond offers a wide range of colourful, child-friendly printables and journals to choose from|yes| ![Child-friendly Journals and printables](docs/colourfull-printables-journals.png)|
 |As a user, I want access journals and printables easily  so I can use them offline in a creative way.| In journals section if you press view & print button the journal will open in a diffrent tab then you can use the three dots on the write of the browser then you can press print this will allow you to print the document or save it in your computer.| yes | ![Full access to journals and printables so you can print them or save them in your computer](docs/print-document.png)|
@@ -377,37 +377,4 @@ Forking the GitHub repository allows you to create a duplicate of a local reposi
   + [Pinterest](https://uk.pinterest.com/)
      - [Etsy](https://uk.pinterest.com/search/pins/?q=etsy&rs=typed)
      - [Natasha](uk.pinterest.com/natashalh/)
-     
- 
- 
-  
- 
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
