@@ -325,7 +325,7 @@ SEO - checks if the website is optimised for search engine result rankings.
  ![Tests for Phone on Lighthouse Chrome](docs/chrome-mobile-lighthouse.png)<br><br>
  - Tests for Desktop on Edge Lighthouse 
  ![Tests for Desktop on Edge Lighthouse ](docs/edge-lighthouse-desktop.png)<br><br>
- - Tests for Phone on Edge Lighthouse 
+ - Tests for Phone on Edge Lighthouse <br><br>
  ![Tests for Phone on Edge Lighthouse ](docs/edge-lighthouse-phone.png)
 
 # Deployment
