@@ -62,6 +62,9 @@ Bond was created to provide children aged 5 and above with a fun, creative, and 
 
 Bond bridges that gap by offering colourful, printable journals and resources that encourage reflection, mindfulness, and positive habits. It empowers children to explore emotions in a safe, engaging way while helping parents and teachers nurture emotional intelligence and family bonding through shared creative activities.
 
+[Back to Table of Contents](#table-of-contents)
+
+
 # User Goals
 - Children want a fun and colorful space to write, color, and feel proud of their ideas.
 - Parents want tools to help their children become more mindful, independent, and confident.
@@ -88,11 +91,15 @@ Bond bridges that gap by offering colourful, printable journals and resources th
 - To be able to use the website on a range of devices (phone, tablet, desktop), so I can access content wherever I am.
 - To be able to send a message or suggestion about the content of the website, so I can contribute ideas or ask for new features
 
+[Back to Table of Contents](#table-of-contents)
+
 # Target Audience:
 Children aged 5+.
 Parents and Guardians.
 Teachers and Educators.
 Therapist.
+
+[Back to Table of Contents](#table-of-contents)
 
 # Wireframe:
 I created wireframes using Balsamiq Wireframes. This helped me visualise the structure and flow of each page before starting the coding process. I focused on making the design clear, simple, and responsive — ensuring it would look good on all screens.
@@ -101,6 +108,7 @@ I created wireframes using Balsamiq Wireframes. This helped me visualise the str
 ### [Ipad wireframe](docs/Ipad-wireframe.pdf)
 ### [Desktop wireframe](docs/Desktop-wireframe.pdf)
 
+[Back to topTable of Contents](#table-of-contents)
 # Design Choices
 ## Typography
 To keep the design friendly, playful, and easy to read for children, I selected two Google Fonts:
@@ -115,11 +123,12 @@ The colour palette for Bond was carefully chosen to reflect creativity, warmth, 
 
 To ensure the website is accessible and the textis readable for users, I used Contrast Grid to testhe contrast between background and the text colors.
 
-![The colour palette](docs/contrast-grid.png)
+![The colour contrast grid](docs/contrast-grid.png)
 
 ## Responsive Design Media Queries
 The website was built with a responsive design approach to ensure it works well on a wide range of devices, including mobiles, tablets, and desktops. The goal of this design is to provide a consistent and user-friendly experience for all users, no matter what device they are using.
 
+[Back to Table of Contents](#table-of-contents)
 
 | Screen Size / Device        | Media Query                        | Adjustments Made                                                                 |
 |------------------------------|------------------------------------|---------------------------------------------------------------------------------|
@@ -129,10 +138,13 @@ The website was built with a responsive design approach to ensure it works well 
 | **≥ 1024px (large devices / tablets)** | `@media screen and (min-width: 1024px)` | Journal card text min-height set to **120px** <br> Carousel height fixed at **596px** |
 | **≥ 1200px (extra large devices)** | `@media screen and (min-width: 1200px)` | Journal card text min-height set to **192px** <br> Carousel height fixed at **425px** <br> Printable cards images set to **430px height** |
 
+[Back to Table of Contents](#table-of-contents)
+
 ## Images 
 Images for journals, printables, and the carousel were sourced from [Freepik](https://www.freepik.com/) and [Pinterest](https://uk.pinterest.com/).<br>
 The logo was created with the assistance of [ChatGPT](https://chatgpt.com/).
 
+[Back to Table of Contents](#table-of-contents)
 # Features
 
 ## Navigation Bar
@@ -213,7 +225,8 @@ A simple contact form with fields for: Name, Email, Message. On successful submi
   Social Media Links: Icons for platforms like Facebook, Instagram, Twitter and Pinterest.
 
   Short Message: A friendly reminder about Bond’s mission – creativity, bonding, and growth.
-
+  
+[Back to top Table of Contents](#table-of-contents)
 # Future enhancement 
 - Add a secure login system for parents and children.
 - Add a download and print button, which allows the user to print or download any chart or journal directly from the website.
@@ -221,6 +234,7 @@ A simple contact form with fields for: Name, Email, Message. On successful submi
 - Let users pick themes, colours, or stickers before downloading charts and journals.
 - Users can save their favourite journals, track their progress, and access previous entries.
 
+[Back to to Table of Contents](#table-of-contents)
 # Technologies used
 
 ### Languages
@@ -246,7 +260,7 @@ A simple contact form with fields for: Name, Email, Message. On successful submi
 - [Contrast Grid](https://contrastgrid.com/)
 - [Squoosh to resize pictures](https://squoosh.app/)
 
-
+[Back to Table of Contents](#table-of-contents)
   # Tests
 
   ## Bugs
@@ -263,13 +277,13 @@ During the development of the Bond website, several bugs were encountered that a
 | Navbar active link not working | Unresolved | `:active` only applied while clicking on Home. | I need to use Javascript in order to fix this problem |
 | Carousel height inconsistent |  Fixed | Images stretched/jumped at different breakpoints. | Set fixed heights in media queries. |
 
-
+[Back to Table of Contents](#table-of-contents)
 ## Responseviness tests
 
 I have simultaneously tested the responsiviness of the website using DevTools browser for google Chrome. I  the mobile-first strategy and verified all of my modifications using the DevTools browsers for Google Chrome and Microsoft Edge. Deployed versions were tested using the external website Responsive Design Checker. The Am I Responsive website was another external source that was used to obtain a unified view of different device breakpoints.
 
 
-
+[Back to Table of Contents](#table-of-contents)
 | **Size** | **Device Example** | **Navigation** | **Element Alignments** |**Content Placement**| **Functionalty**| **Notes**|
 |------------------|-----------------|---------------|--------------|------------|-----------------|-----------------------|
 |sm	|Samsung Galaxy S5 S6 S7	|Good|	Good|	Good	|Good	|
@@ -284,6 +298,7 @@ I have simultaneously tested the responsiviness of the website using DevTools br
 |xxl|	Dell Lattitude	|Good|	Good	|Good	|Good	||
 |xxl	|Desktop|	Good|	Good	|Good	|Good	|
 
+[Back to Table of Contents](#table-of-contents)
 ## Code validation 
 ### HTML Validation
 I used [W3C HTML Validation Service](https://validator.w3.org/) to test the code of three bond files:
@@ -297,10 +312,13 @@ I used [W3C HTML Validation Service](https://validator.w3.org/) to test the code
 #### Successfully contacted feedback page.
 ![Successfully contacted](docs/html-checker-success-contact.png)
 
+[Back to top](#table-of-contents)
 ### CSS Validation
 I used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to test css file code. It all came up clean with no errors.
 ![CSS](docs/css-validator.png)
 
+
+[Back to Table of Contents](#table-of-contents)
 ### User stories tests
 
 | **User story** | **Result** | **Pass** | **proof** |
@@ -313,6 +331,7 @@ I used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to tes
 |As a user, I want access journals and printables easily  so I can use them offline in a creative way.| In journals section if you press view & print button the journal will open in a diffrent tab then you can use the three dots on the write of the browser then you can press print this will allow you to print the document or save it in your computer.| yes | ![Full access to journals and printables so you can print them or save them in your computer](docs/print-document.png)|
 | As a user, I want to be able to use the website on a range of devices (phone, tablet, desktop), so I can access content wherever I am.| the website is been tested on phone, tablet and desktop screens The all work perfect without any issues.| yes|![Responsive website you can access it through all devices](docs/responsive-bond.png)|
 
+[Back to Table of Contents](#table-of-contents)
 ## Lighthouse Testing
 Bond has been tested in the [Chrome Dev Tools](https://pagespeed.web.dev/) and [Microsoft Edge Dev Tools](https://learn.microsoft.com/en-us/microsoft-edge/devtools/overview?tabs=cmd-Windows) using Lighthouse Testing tool which inspects and scores the website for the following criteria:
 
@@ -329,6 +348,7 @@ SEO - checks if the website is optimised for search engine result rankings.
  - Tests for Phone on Edge Lighthouse <br><br>
  ![Tests for Phone on Edge Lighthouse ](docs/edge-lighthouse-phone.png)
 
+[Back to Table of Contents](#table-of-contents)
 # Deployment
 
 Bond was deployed early in the process to GitHub pages via the following steps:
@@ -341,6 +361,7 @@ Bond was deployed early in the process to GitHub pages via the following steps:
 
 Any changes required to the website, they can be made, committed and pushed to GitHub.
 
+[Back to Table of Contents](#table-of-contents)
 ## Fork the project
 Forking the GitHub repository allows you to create a duplicate of a local repository. This is done so that modifications to the copy can be performed without compromising the original repository.
 
@@ -359,7 +380,7 @@ Forking the GitHub repository allows you to create a duplicate of a local reposi
 - Change the current working directory to the location where you want the cloned directory.
 - Type git clone, and then paste the URL you copied earlier.
 - Press Enter to create your local clone.
-
+[Back to Table of Contents](#table-of-contents)
 # Credits
 
 - Feedback, advice and support
@@ -379,3 +400,4 @@ Forking the GitHub repository allows you to create a duplicate of a local reposi
      - [Etsy](https://uk.pinterest.com/search/pins/?q=etsy&rs=typed)
      - [Natasha](uk.pinterest.com/natashalh/)
     
+[Back to Table of Contents](#table-of-contents)
